@@ -1,4 +1,7 @@
 # Web Developer Portfolio
+[](https://portfolio-shivi.netlify.app/)
+
+
 This is my personal portfolio website, showcasing my skills and projects as a web developer. The website is built using Vite.js, React.js, Tailwind CSS, and Framer Motion. It has a beautiful UI design with smooth animations to create a visually stunning experience.
 
 ## Sections
