@@ -42,7 +42,7 @@ const HeroBanner = () => {
             <div className="flex justify-center items-center">
               <img src={gmailIcon} alt="" className="w-[50px]" />
             </div>
-            <div className="flex justify-center items-center flex-col m-0 p-0"><h1 className="text-2xl" >CodeLab</h1> <p className="text-xs mt-0" >Shivnandan</p> </div>
+            <div className = "flex justify-center items-center flex-col m-0 p-0"><h1 className = "text-2xl" >CodeLab</h1> <p className = "text-xs mt-0" >Shivnandan</p> </div>
           </div>
           <ul className="flex 2xl:text-[20px]">
             <li
