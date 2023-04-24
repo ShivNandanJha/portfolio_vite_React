@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Wrapper from "./Wrapper";
 import man from "../assets/man.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
-import gmailIcon from "../assets/email-icon.png";
+import gmailIcon from "../assets/logo.png";
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
 
@@ -14,7 +14,7 @@ const HeroBanner = () => {
   return (
     <div
       id="hero"
-      className="w-full h-[100vh] relative bg-[#111111] overflow-hidden"
+      className="w-full h-[130vh] relative bg-[#111111] overflow-hidden"
     >
       {/* BACKGROUND ELEMENTS FOR DESKTOP START */}
       <motion.span
@@ -39,10 +39,10 @@ const HeroBanner = () => {
           transition={{ duration: 0.7, delay: 0.25 }}
         >
           <div className="flex items-center gap-[6px]">
-            <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
-              <img src={gmailIcon} alt="" className="w-[18px]" />
+            <div className="flex justify-center items-center">
+              <img src={gmailIcon} alt="" className="w-[50px]" />
             </div>
-            <div>shivjha1226@gmail.com</div>
+            <div className="flex justify-center items-center flex-col m-0 p-0"><h1 className="text-2xl" >CodeLab</h1> <p className="text-xs mt-0" >Shivnandan</p> </div>
           </div>
           <ul className="flex 2xl:text-[20px]">
             <li

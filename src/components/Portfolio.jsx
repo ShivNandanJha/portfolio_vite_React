@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import github from "../assets/github.png";
+import play from "../assets/play-button.png";
 import { projects, filters } from "../data";
 import Div from "./Div";
 
@@ -83,7 +84,7 @@ const Portfolio = () => {
                   >
                     {" "}
                     <img
-                      src       = {github}
+                      src       = {play}
                       alt       = "source code"
                       className = "w-1/2 h-1/2 object-contain "
                     />{" "}
