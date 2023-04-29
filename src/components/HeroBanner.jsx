@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Wrapper from "./Wrapper";
 import man from "../assets/man.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
-import gmailIcon from "../assets/logo.png";
+import logo from "../assets/logo.png";
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
 
@@ -33,18 +33,21 @@ const HeroBanner = () => {
       <Wrapper>
         {/* NAVBAR START */}
         <motion.div
-          className="hidden md:flex items-center justify-between mt-[40px] 2xl:mt-[63px] relative"
+          className="hidden md:flex items-center justify-between mt-[20px] 2xl:mt-[20px] relative"
           initial={{ y: -200, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.25 }}
         >
           <div className="flex items-center gap-[6px]">
             <div className="flex justify-center items-center">
-              <img src={gmailIcon} alt="" className="w-[50px]" />
+              <img src={logo} alt="logo" className="w-[50px]" />
             </div>
-            <div className = "flex justify-center items-center flex-col m-0 p-0"><h1 className = "text-2xl" >CodeLab</h1> <p className = "text-xs mt-0" >Shivnandan</p> </div>
+            <div className="flex justify-center items-center flex-col m-0 p-0">
+              <h1 className="text-2xl">CodeLab</h1>{" "}
+              <p className="text-xs mt-0">Shivnandan</p>{" "}
+            </div>
           </div>
-          <ul className="flex 2xl:text-[20px]">
+          <ul className="flex  2xl:text-[20px]">
             <li
               className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
               onClick={() => scrollTo("about")}
@@ -75,16 +78,20 @@ const HeroBanner = () => {
 
         {/* BIG HEADING START */}
         <motion.div
-          className="flex justify-center text-center mt-14 mb-10 relative"
+          className="flex justify-center text-center mt-10 mb-10 relative"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-        >
+        > <h2 style = {{ fontFamily: "'Cedarville Cursive',cursive" }}>
+        &lt;h1&gt;
+      </h2>
           <h1 className="text-[50px] md:text-[120px] 2xl:text-[189px] leading-[50px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
             I Am A Web
             <br className="invisible md:visible" />
             Developer
-          </h1>
+          </h1><h2 style = {{ fontFamily: "'Cedarville Cursive',cursive" }}>
+            &lt;/h1&gt;
+          </h2>
         </motion.div>
         {/* BIG HEADING END */}
 
@@ -95,13 +102,16 @@ const HeroBanner = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.25 }}
         >
-          <div className="font-light mb-4">
+          <div className="font-light mb-3" style={{ fontFamily: "'Noto Serif', serif" }} >
             👋 Hi, I Am <span className="font-semibold">Shivnandan Jha</span>
           </div>
-          <div className="max-w-[510px]">
-            I create and maintain modern websites and applications. I solve all
-            your business problems. Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry.
+          <div className="max-w-[510px]"  style={{ fontFamily: "'Cedarville Cursive', serif" }}>
+       <h2 style= {{fontFamily: "'Cedarville Cursive',cursive"}} >&lt;p&gt;</h2>   I'm a front-end developer and Programmer. Passionate about building
+            user-loving accessible web apps. My jobs is to build your website
+            functional, user-friendly and attractive. moreover i add personal
+            touches to your product and make sure that is eye-catching and easy
+            to use. My aim is to bring across your message and identity in the
+            most craetive way<h2 style={{fontFamily: "'Cedarville Cursive',cursive"}}>&lt;/p&gt;</h2>
           </div>
         </motion.div>
         {/* INTRO END */}
@@ -113,7 +123,7 @@ const HeroBanner = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.25 }}
         >
-          {/* START */}
+       
           <div className="flex items-center gap-3">
             <div className="text-[80px] font-light">20+</div>
             <div className="leading-[22px]">
@@ -124,9 +134,7 @@ const HeroBanner = () => {
               PROJECTS
             </div>
           </div>
-          {/* END */}
-
-          {/* START */}
+        
           <div className="flex items-center gap-3">
             <div className="text-[80px] font-light">1+</div>
             <div className="leading-[22px]">
@@ -135,7 +143,7 @@ const HeroBanner = () => {
               EXPERIENCE
             </div>
           </div>
-          {/* END */}
+      
         </motion.div>
         {/* NUMBER BLOCK END */}
 
@@ -146,15 +154,15 @@ const HeroBanner = () => {
           animate={{ y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img src={man} alt="" />
+          <img src={man} alt="profile_img" />
 
           {/* HIRE ME BUTTON START */}
           <div
-            className = "absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
-            onClick   = {() => scrollTo("contact")}
+            className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
+            onClick={() => scrollTo("contact")}
           >
-            <img src       = {externalLinkIcon} alt = "" className = "w-[15px]" />
-            <div className = "text-black">Hire Me</div>
+            <img src={externalLinkIcon} alt="" className="w-[15px]" />
+            <div className="text-black">Hire Me</div>
           </div>
           {/* HIRE ME BUTTON END */}
         </motion.div>
