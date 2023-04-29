@@ -102,8 +102,8 @@ const HeroBanner = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.25 }}
         >
-          <div className="font-light mb-3" style={{ fontFamily: "'Noto Serif', serif" }} >
-            👋 Hi, I Am <span className="font-semibold">Shivnandan Jha</span>
+          <div className = "font-light mb-3" style = {{ fontFamily: "'Noto Serif', serif" }} >
+          👋   Hi,        I Am <span className     = "font-semibold">Shivnandan Jha</span>
           </div>
           <div className="max-w-[510px]"  style={{ fontFamily: "'Cedarville Cursive', serif" }}>
        <h2 style= {{fontFamily: "'Cedarville Cursive',cursive"}} >&lt;p&gt;</h2>   I'm a front-end developer and Programmer. Passionate about building
