@@ -51,10 +51,11 @@ const AboutMe = () => {
           visually stunning, responsive, and user-friendly websites. With over
           1+ years of experience in web development, I have honed my skills in
           HTML, CSS, and JavaScript, and am well-versed in a variety of
-          front-end frameworks such as Tailwind, Bootstrap, and ReactJS library.
+                  front-end frameworks such as Tailwind, Bootstrap, and ReactJS library.
           <h2 style={{ fontFamily: "'Cedarville Cursive',cursive" }}>
             &lt;br/&gt;
-          </h2>{" "}
+                  </h2>{" "}
+                  <br />
           My expertise in these technologies enables me to create dynamic and
           interactive websites that are optimized for both desktop and mobile
           devices. Whether it's a small personal website, large enterprise
@@ -64,14 +65,15 @@ const AboutMe = () => {
           <h2 style={{ fontFamily: "'Cedarville Cursive',cursive" }}>
             &lt;br/&gt;
           </h2>{" "}
-          <br />I prioritize creating clean and semantic code to ensure that my
+                  <br />
+                  I prioritize creating clean and semantic code to ensure that my
           websites are not only visually appealing but also accessible to all
           users. I also have experience working with design tools such as
           Sketch, Canva, and Figma, which enables me to work efficiently with
           design teams to bring their visions to life.{" "}
           <h2 style={{ fontFamily: "'Cedarville Cursive',cursive" }}>
             &lt;br/&gt;
-          </h2>{" "}
+          </h2>{" "} <br />
           I am passionate about staying up-to-date with the latest web
           development trends and technologies, and I am always learning and
           experimenting with new tools and techniques. I am a quick learner and
