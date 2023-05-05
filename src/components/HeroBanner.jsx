@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Wrapper from "./Wrapper";
 import man from "../assets/man.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
-import logo from "../assets/logo.png";
+import logo2 from "../assets/logo2.svg";
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
 
@@ -40,12 +40,12 @@ const HeroBanner = () => {
         >
           <div className="flex items-center gap-[6px]">
             <div className="flex justify-center items-center">
-              <img src={logo} alt="logo" className="w-[50px]" />
+              <img src={logo2} alt="logo" className="w-[100px] p-0 m-0 "  />
             </div>
-            <div className="flex justify-center items-center flex-col m-0 p-0">
-              <h1 className="text-2xl">CodeLab</h1>{" "}
+            {/* <div className="flex justify-center items-center flex-col m-0 p-0 gap-0">
+              <h1 className="text-2xl">Bro Code</h1>{" "}
               <p className="text-xs mt-0">Shivnandan</p>{" "}
-            </div>
+            </div> */}
           </div>
           <ul className="flex  2xl:text-[20px]">
             <li
@@ -124,7 +124,7 @@ const HeroBanner = () => {
           transition={{ duration: 0.7, delay: 0.25 }}
         >
        
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 ">
             <div className="text-[80px] font-light">20+</div>
             <div className="leading-[22px]">
               SUCCESSFULLY
@@ -161,7 +161,7 @@ const HeroBanner = () => {
             className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
             onClick={() => scrollTo("contact")}
           >
-            <img src={externalLinkIcon} alt="" className="w-[15px]" />
+            <img src={externalLinkIcon} alt="" className="w-[15px]"  onClick={() => scrollTo("contact")} />
             <div className="text-black">Hire Me</div>
           </div>
           {/* HIRE ME BUTTON END */}
