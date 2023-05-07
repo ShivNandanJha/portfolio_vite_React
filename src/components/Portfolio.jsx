@@ -11,11 +11,11 @@ const Portfolio = () => {
   const filterHandler = (tag) => {
     setSelectedTag(tag);
     let filteredProjects = [];
-    if (tag === "all") {
+  /*   if (tag === "all") {
       filteredProjects = projects;
-    } else {
+    } else { */
       filteredProjects = projects.filter((p) => p.tags.includes(tag));
-    }
+   /*  } */
     setProjectData(filteredProjects);
   };
 

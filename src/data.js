@@ -13,15 +13,15 @@ import p12 from "./assets/project12.jpeg";
 import p13 from "./assets/project13.jpeg";
 export const filters = [
   {
-    name: "All",
-    id: "all",
+    name: "Recent",
+    id: "recent",
   },
   {
     name: "HTML,CSS",
     id: "html",
   },
   {
-    name: "javascript",
+    name: "Javascript",
     id: "javascript",
   },
   {
@@ -36,12 +36,12 @@ export const projects = [
     image: p1,
     live_url: "https://shivnandanjha-portfolio.netlify.app/",
     github_url: "https://github.com/ShivNandanJha/ShiviCode_Portfolio",
-    tags: ["html"],
+    tags: ["html","recent"],
   },
   {
     name: "Movie searching App using react,redux,tailwind and TMDB API",
     image: p2,
-    tags: ["javascript","react"],
+    tags: ["javascript","react",'recent'],
     live_url: "https://movieflix-shivcodes.netlify.app/",
     github_url: "https://github.com/ShivNandanJha/MovieFlix",
   },
@@ -55,22 +55,22 @@ export const projects = [
   {
     name: "Netflix homepage clone using basic HTML & CSS",
     image: p4,
-    tags: ["html"],
+    tags: ["html","recent"],
     live_url: "https://github.com/ShivNandanJha/netflix-landing-page-clone",
     github_url: "https://github.com/ShivNandanJha/netflix-landing-page-clone",
   },
   {
     name: "Starbucks homepage clone using basic HTML & CSS",
     image: p5,
-    tags: [ "Html"],
+    tags: [ "Html","recent"],
     live_url: "https://starbuckshtml-shivcode.netlify.app/",
     github_url: "https://github.com/ShivNandanJha/starbucks-homepage-main",
   },
   {
-    name: "Brainwiz - React Quiz App",
-    image: p10,
-    tags: ["React","javascript"],
-    live_url: "https://brainwiz-brocode.netlify.app/",
+    name      : "Brainwiz - React Quiz App",
+    image     : p10,
+    tags      : ["react","javascript","recent"],
+    live_url  : "https://brainwiz-brocode.netlify.app/",
     github_url: "https://github.com/ShivNandanJha/react-quiz-app-main",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
   {
     name: "DictoGuru- Dictionary App using react, materialUI and google dictionary App",
     image: p7,
-    tags: ["javascript","react"],
+    tags: ["javascript","react","recent"],
     live_url: "https://dictoguru.netlify.app/",
     github_url: "https://github.com/ShivNandanJha/Dictionary_App",
   },
