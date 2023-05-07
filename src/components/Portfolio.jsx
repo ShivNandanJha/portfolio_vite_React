@@ -65,7 +65,7 @@ const Portfolio = () => {
                 <div className = "black-gradient w-10 h-10 rounded-full flex justify-center opacity-100  items-center cursor-pointer ">
                   <a
                     className = "object-contain flex item-center justify-center "
-                    href      = {item.live_url}
+                    href      = {item.github_url}
                     target    = "-blank"
                   >
                     {" "}
@@ -79,7 +79,7 @@ const Portfolio = () => {
                 <div className = "black-gradient w-10 h-10 rounded-full flex justify-center opacity-100  items-center cursor-pointer ">
                   <a
                     className = "object-contain flex item-center justify-center "
-                    href      = {item.github_url}
+                    href      = {item.live_url}
                     target    = "-blank"
                   >
                     {" "}
