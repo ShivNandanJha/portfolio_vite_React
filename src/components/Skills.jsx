@@ -20,6 +20,11 @@ import sk8 from "../assets/SK8.png";
 import sk9 from "../assets/SK9.png";
 import sk10 from "../assets/SK10.png";
 import sk11 from "../assets/SK11.png";
+import sk12 from "../assets/SK12.png";
+import sk13 from "../assets/SK13.png";
+import sk14 from "../assets/SK14.png";
+import sk15 from "../assets/SK15.png";
+
 import pattern from "../assets/heading-pattern.png";
 import pe1 from "../assets/sec-3-p-e-1.png";
 import pe2 from "../assets/sec-3-p-e-2.png";
@@ -51,11 +56,15 @@ const Skills = () => {
           <SkillIcon path={sk4} />
           <SkillIcon path={sk5} />
           {<SkillIcon path={sk6} />}
+          <SkillIcon path={sk12} />
+          <SkillIcon path={sk13} />
+          <SkillIcon path={sk14} />
           <SkillIcon path={sk7} />
           <SkillIcon path={sk8} />
           <SkillIcon path={sk9} />
           <SkillIcon path={sk10} />
           <SkillIcon path={sk11} />
+          <SkillIcon path={sk15} />
         </Div>
         {/* SKILL ICONS END */}
 
@@ -65,41 +74,35 @@ const Skills = () => {
           <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
             <Service
               num="1"
-              title="Ui/Ux Design"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+              title="Frontend Development"
+              desc="As a passionate frontend developer, I have honed my skills in HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and React.js. With a solid foundation in these technologies, I have successfully worked on various projects, creating visually stunning and user-friendly websites. From crafting responsive layouts to implementing interactive features, I thrive on delivering seamless user experiences. If you have any frontend development needs or would like to collaborate on an exciting project, please feel free to get in touch. I look forward to creating captivating digital experiences together."
               data={[
-                "Prototype",
-                "Wireframe",
-                "User Experience",
-                "Prototype",
-                "Prototype",
+                "HTML",
+                "CSS/SCSS",
+                "JavaScript",
+                "Bootstrap,tailwind,MUI",
+                "ReactJS",
               ]}
             />
             <Service
               num="2"
-              title="Graphic Designing"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-              data={[
-                "Prototype",
-                "Wireframe",
-                "User Experience",
-                "Prototype",
-                "Prototype",
-              ]}
+              title="Backend Development"
+              desc="As a dedicated learner, I am currently focusing on honing my skills in MERN stack development. I have successfully completed several projects using Node.js, Express.js, MongoDB, and Firebase, and I am constantly seeking opportunities to further expand my knowledge and expertise. Additionally, I am venturing into the world of Python and eagerly looking forward to acquiring new languages and enhancing my skill set. If you have any suggestions or exciting opportunities to share, please don't hesitate to reach out to me. Let's embark on this journey of growth and innovation together!"
+              data={["MongoDB", "Firebase", "NodeJS", "ExpressJS", "Python"]}
             />
             <Service
               num="3"
-              title="Frontend Development"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+              title="UI/UX Designer"
+              desc="I am also expanding my skills in UI/UX development, with a particular focus on creating intuitive and visually appealing user interfaces. I have gained valuable experience in utilizing design tools such as Figma, which has allowed me to bring my creative visions to life. As I continue to expand my knowledge and expertise in this field, I am eager to collaborate with like-minded professionals and contribute to innovative projects. Please feel free to reach out to me through the contact form below. Let's embark on a journey of innovation and user-centric design together!"
               data={[
                 "Prototype",
                 "Wireframe",
                 "User Experience",
-                "Prototype",
-                "Prototype",
+                "User Interface",
+                "Figma",
               ]}
             />
-            <Service
+            {/* <Service
               num="4"
               title="Wordpress Development"
               desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
@@ -110,7 +113,7 @@ const Skills = () => {
                 "Prototype",
                 "Prototype",
               ]}
-            />
+            /> */}
           </div>
           {/* SERVICES END */}
 

@@ -1,69 +1,41 @@
-# Web Developer Portfolio
-[](https://portfolio-shivi.netlify.app/)
 
 
-This is my personal portfolio website, showcasing my skills and projects as a web developer. The website is built using Vite.js, React.js, Tailwind CSS, and Framer Motion. It has a beautiful UI design with smooth animations to create a visually stunning experience.
+## BrainWiz Quiz App
 
-## Sections
-The website has the following sections:
+BrainWiz is a quiz app that challenges your knowledge on various subjects, including history, science, literature, and more. The app is built with Vite + React and styled with SCSS to provide a simple, yet attractive user interface.
 
-![Screenshot (70)](https://user-images.githubusercontent.com/115362063/233790035-4885a2b0-a997-4f18-b817-2ffe10ce1737.png)
+### Features
 
+- A vast collection of questions to test your knowledge on various subjects.
+- User-friendly interface with intuitive navigation.
+- Each question has four possible answers, and you have to select the correct one.
+- After answering all questions, you get instant feedback on your performance, including the number of correct and incorrect answers.
+- The app also shows you the correct answer for each question, along with an explanation.
 
-### About:
-> A brief introduction about myself, my skills, and my work experience.
+### Getting Started
 
-![Screenshot (71)](https://user-images.githubusercontent.com/115362063/233790045-626faae4-ca24-4eff-b06d-abe3c5aa5ab2.png)
+To get started with BrainWiz, you need to have Node.js installed on your machine. Then, follow these steps:
 
-### Skills:
-> A list of my technical skills as a web developer.
+1. Clone the repository.
+2. Install dependencies by running `npm install` in the project directory.
+3. Start the development server by running `npm run dev`.
+4. Open the app in your browser at `http://localhost:3000`.
 
-![Screenshot (72)](https://user-images.githubusercontent.com/115362063/233790057-848e67f0-c711-4801-8b3a-431147de8cef.png)
+### How to Play
 
-### Projects:
-> A showcase of my past projects, with details about each project.
+1. On the home page, select the category you want to play.
+2. Click the "Start Quiz" button to begin the quiz.
+3. Answer all questions by selecting the correct answer and clicking the "Next" button.
+4. After answering all questions, click the "Finish" button to see your score and feedback.
 
-![Screenshot (73)](https://user-images.githubusercontent.com/115362063/233790083-ddbc12b0-44dd-45ef-87d3-d07514809df6.png)
+### Contributing
 
+If you want to contribute to BrainWiz, feel free to fork the repository and submit a pull request. You can also open an issue if you find a bug or have a suggestion.
 
-### Testimonials:
-> Testimonials from my clients and colleagues about my work.
+### Credits
 
-![Screenshot (74)](https://user-images.githubusercontent.com/115362063/233790063-689e9139-8012-4504-a5d6-5e9a8eed6186.png)
+BrainWiz was developed by [Your Name] using Vite + React and styled with SCSS. The questions were sourced from various online sources.
 
-### Contact:
-> A contact form where visitors can get in touch with me.
+### License
 
-![Screenshot (75)](https://user-images.githubusercontent.com/115362063/233790100-2e6923b5-67a3-444d-ba32-94d283a31228.png)
-
-
-## Technologies Used
-### Vite.js:
-A build tool that provides fast and efficient development and production workflows.
-### React.js:
-A popular JavaScript library for building user interfaces.
-### Tailwind CSS:
-A utility-first CSS framework that allows for rapid UI development.
-### Framer Motion: 
-A powerful library for creating animations and interactive UI components.
-
-
-## Setup
-To run the project on your local machine, follow these steps:
-
-Clone the repository:
-`` git clone https://github.com/ShivNandanJha/portfolio_vite_React ``
-
-Navigate to the project directory: ``cd portfolio_vite_react``
-
-Install dependencies: ``npm install``
-
-Start the development server: ``npm run dev``
-
-Open your browser and go to ``http://localhost:3000``
-
-## Contributing
-If you find any issues with the website, feel free to open an issue on the GitHub repository. If you would like to contribute to the project, please create a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details
+BrainWiz is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the app as long as you include the original license and copyright notice.

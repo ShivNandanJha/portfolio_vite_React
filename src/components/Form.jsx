@@ -14,10 +14,10 @@ const Form = () => {
 
         // Below credentials are required to link your email id with contact form you can create your credentials in emailjs.com
         send(
-            "", // Service ID
-            "", // Template ID
+            "service_bx4sxgs", // Service ID
+            "template_zqbinhy", // Template ID
             userInput,
-            "" // Public Key - https://dashboard.emailjs.com/admin/account
+            "Kcn_nKpkbEBdthKju" // Public Key - https://dashboard.emailjs.com/admin/account
         )
             .then((response) => {
                 console.log("SUCCESS!", response.status, response.text);
@@ -32,7 +32,7 @@ const Form = () => {
 
     const formSuccess = () => {
         toast(
-            "Thanks for submitting your Query, I will get back to you shortly."
+            "Thanks for submitting your message, I will get back to you shortly."
         );
 
         // Resetting Form
@@ -65,10 +65,11 @@ const Form = () => {
             )}
             {/* LOADER START */}
 
-            <form
-                id="queryForm"
-                className="flex flex-col gap-8"
-                onSubmit={formSubmitHandler}
+            <form action    = "https://formspree.io/f/mwkjerld"
+                  method    = "POST"
+                  id        = "queryForm"
+                  className = "flex flex-col gap-8"
+                  onSubmit  = {formSubmitHandler}
             >
                 {/* ROW START */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-7">

@@ -11,7 +11,7 @@ function App() {
             <HeroBanner />
             <AboutMe />
             <Skills />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Contact />
             <Footer />
         </div>
