@@ -2,7 +2,7 @@ import React from "react";
 import Wrapper from "./Wrapper";
 import gmailIcon from "../assets/email-icon.png";
 import linkedin from "../assets/linkedin.png";
-import github from "../assets/sk8.png";
+import github from "../assets/SK8.png";
 import codepen from "../assets/codepen.png";
 import { scrollTo } from "../helper";
 
