@@ -20,10 +20,10 @@ import sk8 from "../assets/SK8.png";
 import sk9 from "../assets/SK9.png";
 import sk10 from "../assets/SK10.png";
 import sk11 from "../assets/SK11.png";
-import sk12 from "../assets/SK12.png";
-import sk13 from "../assets/SK13.png";
-import sk14 from "../assets/SK14.png";
-import sk15 from "../assets/SK15.png";
+import sk12 from "../assets/sk12.png";
+import sk13 from "../assets/sk13.png";
+import sk14 from "../assets/sk14.png";
+import sk15 from "../assets/sk15.png";
 
 import pattern from "../assets/heading-pattern.png";
 import pe1 from "../assets/sec-3-p-e-1.png";
