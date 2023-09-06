@@ -27,8 +27,7 @@ const Portfolio = () => {
           Latest Projects
         </div>
         <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-[#CCCCCC] text-center">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+         Each project is a piece of my heart and soul—explore all my projects and experience my dedication
         </div>
       </Div>
       {/* SECTION HEADING END */}
