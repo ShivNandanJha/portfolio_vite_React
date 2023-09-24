@@ -49,10 +49,16 @@ const HeroBanner = () => {
           </div>
           <ul className="flex  2xl:text-[20px]">
             <li
-              className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
-              onClick={() => scrollTo("about")}
+              className = "cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+              onClick   = {() => scrollTo("about")}
             >
               About me
+            </li>
+            <li
+              className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+              
+            >
+             <a href = "https://brocodeblog.vercel.app/"  target = '_blank' > Blog</a>
             </li>
             <li
               className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
