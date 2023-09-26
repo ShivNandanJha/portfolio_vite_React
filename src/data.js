@@ -1,6 +1,6 @@
 import p1 from "./assets/project1.jpeg";
 import p2 from "./assets/project10.jpeg";
-import p3 from "./assets/project3.jpeg";
+import p3 from "./assets/project3.jpg";
 import p4 from "./assets/project4.jpeg";
 import p5 from "./assets/project5.jpeg";
 import p6 from "./assets/project6.jpeg";
@@ -11,6 +11,8 @@ import p10 from "./assets/project11.png";
 import p11 from "./assets/project2.jpeg";
 import p12 from "./assets/project12.jpeg";
 import p13 from "./assets/project13.jpeg";
+import p14 from "./assets/project14.jpeg";
+import p15 from "./assets/project15.jpg";
 export const filters = [
   {
     name: "Recent",
@@ -39,18 +41,33 @@ export const projects = [
     tags: ["html","recent"],
   },
   {
-    name: "Movie searching App using react,redux,tailwind and TMDB API",
-    image: p2,
-    tags: ["javascript","react",'recent'],
-    live_url: "https://movieflix-shivcodes.netlify.app/",
+    name      : "Movie searching App using react,redux,tailwind and TMDB API",
+    image     : p2,
+    tags      : ["javascript","react",'recent'],
+    live_url  : "https://movieflix-shivcodes.netlify.app/",
     github_url: "https://github.com/ShivNandanJha/MovieFlix",
   },
   {
-    name: "Web Developer Portfolio using HTML,CSS & Javascript",
-    image: p3,
-    tags: ["react","javascript"],
-    live_url: "https://shivcode-portfolio.netlify.app/",
-    github_url: "https://github.com/ShivNandanJha/My_Portfolio_Website",
+    name      : "Bro_CODE blog website using nextJs, firebase, MongoDB, Prisma",
+    image     : p14,
+    tags      : ["javascript","react",'recent'],
+    live_url  : "https://brocodeblog.vercel.app/",
+    github_url: "https://github.com/ShivNandanJha/BroCode-Blog",
+  },
+
+  {
+    name      : "TodoIt- NextJs Todo App and Google firebase for storage and authentication ",
+    image     : p3,
+    tags      : ["recent","react","javascript"],
+    live_url  : "https://todoit-brocode.vercel.app/",
+    github_url: "https://github.com/ShivNandanJha/NextJS-Todo-App",
+  },
+  {
+    name      : "TaxiGO- Taxi booking wesbite with interactive map feature,using Mapbox and Authentication using Clerk ",
+    image     : p15,
+    tags      : ["recent","react","javascript"],
+    live_url  : "",
+    github_url: "https://github.com/ShivNandanJha/taxigo",
   },
   {
     name: "Netflix homepage clone using basic HTML & CSS",
