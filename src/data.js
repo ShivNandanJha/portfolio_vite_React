@@ -13,6 +13,8 @@ import p12 from "./assets/project12.jpeg";
 import p13 from "./assets/project13.jpeg";
 import p14 from "./assets/project14.jpeg";
 import p15 from "./assets/project15.jpg";
+import p16 from "./assets/project16.jpeg";
+
 export const filters = [
   {
     name: "Recent",
@@ -53,6 +55,13 @@ export const projects = [
     tags      : ["javascript","react",'recent'],
     live_url  : "https://brocodeblog.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/BroCode-Blog",
+  },
+  {
+    name      : "NextJS  & Tailwind CSS travel website static UI/UX design",
+    image     : p16,
+    tags      : ["react",'recent'],
+    live_url  : "https://travelwebsite-brocode.vercel.app/",
+    github_url: "https://github.com/ShivNandanJha/travel_ui_ux-main",
   },
 
   {
