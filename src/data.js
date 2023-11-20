@@ -46,7 +46,7 @@ export const projects = [
     name      : "Movie searching App using react,redux,tailwind and TMDB API",
     image     : p2,
     tags      : ["javascript","react",'recent'],
-    live_url  : "https://movieflix-shivcodes.netlify.app/",
+    live_url  : "https://movie-flix-nine-kappa.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/MovieFlix",
   },
   {
@@ -68,7 +68,7 @@ export const projects = [
     name      : "TodoIt- NextJs Todo App and Google firebase for storage and authentication ",
     image     : p3,
     tags      : ["recent","react","javascript"],
-    live_url  : "https://todoit-brocode.vercel.app/",
+    live_url  : "https://next-js-todo-app-51c2.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/NextJS-Todo-App",
   },
   {
@@ -82,7 +82,7 @@ export const projects = [
     name: "Netflix homepage clone using basic HTML & CSS",
     image: p4,
     tags: ["html","recent"],
-    live_url: "https://github.com/ShivNandanJha/netflix-landing-page-clone",
+    live_url: "https://netflix-landing-page-clone-nine.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/netflix-landing-page-clone",
   },
   {
@@ -96,21 +96,21 @@ export const projects = [
     name      : "Brainwiz - React Quiz App",
     image     : p10,
     tags      : ["react","javascript","recent"],
-    live_url  : "https://brainwiz-brocode.netlify.app/",
+    live_url  : "https://react-quiz-app-main-eta.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/react-quiz-app-main",
   },
   {
     name: "Simple Calculator using Javascript",
     image: p6,
     tags: ["javascript","html"],
-    live_url: "https://calculator-shivcode.netlify.app/",
+    live_url: "https://calculator-topaz-sigma-76.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/Calculator",
   },
   {
     name: "DictoGuru- Dictionary App using react, materialUI and google dictionary App",
     image: p7,
     tags: ["javascript","react","recent"],
-    live_url: "https://dictoguru.netlify.app/",
+    live_url: "https://dictionary-app-blue-seven.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/Dictionary_App",
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
     name: "iNotebook -notepad/todo javascript ",
     image: p11,
     tags: ["javascript"],
-    live_url: "https://shivicode-inotebook.netlify.app/",
+    live_url: "https://notebook-sooty.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/notebook",
   },
   {
