@@ -38,7 +38,7 @@ export const projects = [
   {
     name: "Web developer personal portfolio using only basic HTML & CSS",
     image: p1,
-    live_url: "https://shivnandanjha-portfolio.netlify.app/",
+    live_url: "https://shivi-code-portfolio.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/ShiviCode_Portfolio",
     tags: ["html","recent"],
   },
