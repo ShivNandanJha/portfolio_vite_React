@@ -4,10 +4,12 @@ import p3 from "./assets/project3.jpg";
 import p4 from "./assets/project4.jpeg";
 import p5 from "./assets/project5.jpeg";
 import p7 from "./assets/project7.jpeg";
+import p9 from "./assets/project9.jpeg";
 import p10 from "./assets/project11.png";
 import p14 from "./assets/project14.jpeg";
 import p15 from "./assets/project15.jpg";
 import p16 from "./assets/project16.jpeg"; 
+
 import project17 from "./assets/project17.png";
 
 export const filters = [
@@ -84,14 +86,14 @@ export const projects = [
     name: "Netflix homepage clone using basic HTML & CSS",
     image: p4,
     tags: ["html", "recent"],
-    live_url: "https://netflix-landing-page-clone-nine.vercel.app/",
+    live_url: "https://neflix-landing-page.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/netflix-landing-page-clone",
   },
   {
     name: "Starbucks homepage clone using basic HTML & CSS",
     image: p5,
     tags: ["Html", "recent"],
-    live_url: "https://starbuckshtml-shivcode.netlify.app/",
+    live_url: "https://coffesoffee-homepage-main.vercel.app/",
     github_url: "https://github.com/ShivNandanJha/starbucks-homepage-main",
   },
   {
